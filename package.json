@@ -1,0 +1,12 @@
+{
+  "name": "tabpilot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TabPilot: local-first Chrome tab, workspace and session manager. No build step, no dependencies.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test \"tests/unit/*.test.js\"",
+    "icons": "node scripts/make-icons.mjs",
+    "smoke": "node tests/integration/smoke.mjs"
+  }
+}
