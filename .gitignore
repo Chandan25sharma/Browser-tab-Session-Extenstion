@@ -1,0 +1,4 @@
+node_modules/
+tests/integration/out/
+*.zip
+.claude-flow/
